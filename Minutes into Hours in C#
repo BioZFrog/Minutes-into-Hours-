@@ -1,0 +1,16 @@
+Console.WriteLine("-------->Minutes into Hours<--------");
+Console.WriteLine("       ------>BY BIOZFROG<------\n");
+
+// Accessing the Time in Minutes
+Console.WriteLine("Enter a values in Minutes: ");
+double minutes = Convert.ToDouble(Console.ReadLine());
+
+// Initializing other Time units
+double seconds = minutes * 60;
+double hours = minutes / 60;
+
+// Displaying the Results
+Console.WriteLine("\nYour Time is: ");
+Console.WriteLine("\nSeconds {0:F4}: " , seconds);
+Console.WriteLine($"Minutes: {minutes}");
+Console.WriteLine("Hours: {0:F4}", hours);
